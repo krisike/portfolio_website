@@ -22,10 +22,5 @@ export const aboutKrisi = [
     name: 'Krisi Keranova',
     picKrisi: require('../images/KeranovaKrisi.jpg'),
     linkedin: 'https://www.linkedin.com/in/krisi-keranova/'
-  },
-  {
-    name: 'Krisi Keranova',
-    picKrisi: require('../images/KeranovaKrisi.jpg'),
-    linkedin: 'https://www.linkedin.com/in/krisi-keranova/'
   }
 ];
