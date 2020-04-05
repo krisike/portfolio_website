@@ -4,7 +4,7 @@ import { aboutKrisi } from '../constants/constants.js';
 const About = () => {
   return (
     <>
-      <div classname="hr">
+      <div className="hr">
         <hr />
       </div>
       <div className="about">
@@ -18,7 +18,7 @@ const About = () => {
         {aboutKrisi.map(({ name, picKrisi, linkedin }, index) => (
           <a
             key={index}
-            className="poetrait-link"
+            className="portrait-link"
             href={linkedin}
             target="_blank"
             rel="noopener noreferrer"
@@ -28,7 +28,7 @@ const About = () => {
           </a>
         ))}
       </div>
-      <div classname="hr">
+      <div className="hr">
         <hr />
       </div>
     </>
