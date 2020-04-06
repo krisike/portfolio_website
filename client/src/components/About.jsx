@@ -4,9 +4,6 @@ import { aboutKrisi } from '../constants/constants.js';
 const About = () => {
   return (
     <>
-      <div className="hr">
-        <hr />
-      </div>
       <div className="about">
         <p>
           A web developer with enthusiasm and team spirit eager to contribute to
@@ -14,7 +11,7 @@ const About = () => {
           along the way.
         </p>
       </div>
-      <div>
+      <div className="aboutName">
         {aboutKrisi.map(({ name, picKrisi, linkedin }, index) => (
           <a
             key={index}
@@ -24,12 +21,12 @@ const About = () => {
             rel="noopener noreferrer"
           >
             <img id="about-pic" src={picKrisi} alt={`${name}`} />
-            <p>{name}</p>
+            <p className="aboutName">{name}</p>
           </a>
+          // <a href="https://www.instagram.com/zerowasteearth/">
+          // <img title="Instagram" alt="RSS" src="https://socialmediawidgets.files.wordpress.com/2014/03/10_instagram.png" width="35" height="35" />
+          // </a>
         ))}
-      </div>
-      <div className="hr">
-        <hr />
       </div>
     </>
   );

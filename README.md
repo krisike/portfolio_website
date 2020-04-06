@@ -1,4 +1,6 @@
-Read the instructions thoroughly before starting your project.
+This is my portfolio site in the process of making.
+
+Instructions for setup below.
 
 ## Setup
 

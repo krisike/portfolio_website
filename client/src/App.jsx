@@ -1,5 +1,10 @@
 import React from 'react';
-import './App.css';
+import '../src/styling/App.css';
+import '../src/styling/Header.css';
+import '../src/styling/About.css';
+import '../src/styling/Contact.css';
+import '../src/styling/Projects.css';
+import '../src/styling/Footer.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './components/Home.jsx';
 import About from '../src/components/About.jsx';

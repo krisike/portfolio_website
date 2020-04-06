@@ -1,0 +1,8 @@
+.projectContainer {
+  margin-top: 8em;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 3em;
+  width: 50%;
+  padding-bottom: 3em;
+}

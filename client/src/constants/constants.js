@@ -17,6 +17,15 @@ export const allProjects = [
     websiteLink: 'https://find-peace.herokuapp.com',
     gitHubLink: 'https://github.com/krisike/findpeace',
     gifLink: 'https://media.giphy.com/media/XHH054KGFGi5Kdu2jO/giphy.gif'
+  },
+  {
+    projectName: 'Ninety Plus Coffee',
+    Description:
+      'Coffee producer in Panama. We reforest tropical lands, plant coffee in the understory, and are a process innovator for the next frontier of coffee.',
+    technologyUsed:
+      'Technology used: Instagram Platform, Buffer, HootSuite, Adobe Lightroom, Canva',
+    websiteLink: 'https://www.instagram.com/ninetypluscoffee/',
+    gifLink: 'https://media.giphy.com/media/fVJ20he9itVg7SFfLR/giphy.gif'
   }
 ];
 
@@ -24,6 +33,7 @@ export const aboutKrisi = [
   {
     name: 'Krisi Keranova',
     picKrisi: require('../images/KeranovaKrisi.jpg'),
-    linkedin: 'https://www.linkedin.com/in/krisi-keranova/'
+    linkedin: 'https://www.linkedin.com/in/krisi-keranova/',
+    email: 'krisi.keranova@gmail.com'
   }
 ];
