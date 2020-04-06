@@ -4,17 +4,7 @@ import { allProjects } from '../constants/constants.js';
 const Projects = () => {
   return (
     <>
-      <div className="hr">
-        <hr />
-      </div>
-      <div className="about">
-        <p>
-          A web developer with enthusiasm and team spirit eager to contribute to
-          the tech world. An environmental activist and social media zealot
-          along the way.
-        </p>
-      </div>
-      <div>
+      <div className="projectContainer">
         {allProjects.map(
           ({ projectName, Description, gitHubLink, gifLink }, index) => {
             return (
@@ -35,9 +25,6 @@ const Projects = () => {
             );
           }
         )}
-      </div>
-      <div className="hr">
-        <hr />
       </div>
     </>
   );

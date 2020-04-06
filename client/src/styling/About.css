@@ -1,0 +1,22 @@
+#about-pic {
+  justify-content: center;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: cover;
+  padding: 10px;
+  margin-top: 4rem;
+}
+
+.aboutName {
+  margin-left: 4em;
+}
+
+.about p {
+  margin-top: 8em;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 3em;
+  width: 50%;
+}
