@@ -14,9 +14,9 @@
 
 .headerTitle {
   color: whitesmoke;
-  font-size: 24px;
+  font-size: 18px;
   padding: 15px;
-  margin-right: 9rem;
+  margin-right: 5rem;
 }
 
 .menu {
@@ -36,12 +36,11 @@ ul {
   height: 100%;
   padding: 15px;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 18px;
   transition: background-color 0.2s ease-out;
   box-sizing: border-box;
-  margin-right: 0.2rem;
+  margin-right: 1em;
 }
-/* 
 .menu a:hover {
   background-color: slategrey;
   transition: background-color 0.2s ease-out;
@@ -49,7 +48,7 @@ ul {
 
 .current:hover {
   background-color: rgb(61, 117, 222) !important;
-} */
+}
 
 @media (max-width: 768px) {
   .containerNav {

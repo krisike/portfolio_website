@@ -10,13 +10,29 @@
 }
 
 .aboutName {
-  margin-left: 4em;
+  margin-left: 6em;
+  text-decoration: none;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: dashed;
+}
+
+a:active {
+  text-decoration: underline;
 }
 
 .about p {
   margin-top: 8em;
   flex-wrap: wrap;
-  justify-content: center;
   margin-left: 3em;
-  width: 50%;
+  width: 481px;
+  text-align: justify;
 }

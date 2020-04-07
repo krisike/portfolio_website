@@ -16,7 +16,7 @@ export const allProjects = [
       'Technology used: Rails, JavaScript, React, React on Rails, Pure CSS, PostgreSQL, Canva, Adobe XD, Mapbox GL, Axios',
     websiteLink: 'https://find-peace.herokuapp.com',
     gitHubLink: 'https://github.com/krisike/findpeace',
-    gifLink: 'https://media.giphy.com/media/XHH054KGFGi5Kdu2jO/giphy.gif'
+    gifLink: 'https://media.giphy.com/media/j2TJQjsA09hLWu6XSn/giphy.gif'
   },
   {
     projectName: 'Ninety Plus Coffee',
@@ -25,6 +25,7 @@ export const allProjects = [
     technologyUsed:
       'Technology used: Instagram Platform, Buffer, HootSuite, Adobe Lightroom, Canva',
     websiteLink: 'https://www.instagram.com/ninetypluscoffee/',
+    gitHubLink: 'https://github.com/krisike',
     gifLink: 'https://media.giphy.com/media/fVJ20he9itVg7SFfLR/giphy.gif'
   }
 ];
@@ -32,8 +33,9 @@ export const allProjects = [
 export const aboutKrisi = [
   {
     name: 'Krisi Keranova',
-    picKrisi: require('../images/KeranovaKrisi.jpg'),
+    picKrisi: require('../images/Krisidance1.gif'),
     linkedin: 'https://www.linkedin.com/in/krisi-keranova/',
-    email: 'krisi.keranova@gmail.com'
+    email: 'krisi.keranova@gmail.com',
+    resume: require('../assets/Krisi-Keranova.pdf')
   }
 ];

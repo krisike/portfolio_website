@@ -1,8 +1,37 @@
 .projectContainer {
-  margin-top: 8em;
+  margin-top: 4em;
   flex-wrap: wrap;
   justify-content: center;
-  margin-left: 3em;
-  width: 50%;
+  width: 481px;
   padding-bottom: 3em;
+  margin-left: 3em;
+  flex-direction: column;
+}
+
+.projectContainer p {
+  margin-top: 1em;
+  text-align: justify;
+}
+
+p {
+  word-wrap: break-word;
+  width: 481px;
+}
+
+p.projectName {
+  margin-top: 3em;
+}
+
+p.projectDescription {
+  text-align: justify;
+  width: 481px;
+}
+
+.img {
+  width: auto;
+}
+
+img.animatedGif {
+  width: 480px;
+  height: auto;
 }
