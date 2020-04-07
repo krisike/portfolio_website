@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Resume } from '../../assets';
-import styles from './ResumeButton.module.css';
+import { Resume } from '../assets/';
+import styles from '../styling/ResumeButton.css';
 
 const ResumeButton = () => (
   <Link to={Resume} target="_blank" download>
