@@ -2,11 +2,10 @@
   margin: 16px auto;
   display: flex;
   flex-direction: column;
-  width: 35%;
+  width: 25%;
   font-family: inherit;
   flex: 1;
   margin-top: 15em;
-  /* margin-left: 5em; */
 }
 
 .personalForm input {

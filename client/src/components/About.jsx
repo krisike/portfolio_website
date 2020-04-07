@@ -7,12 +7,20 @@ const About = () => {
       <div className="about">
         <p>
           A web developer with enthusiasm and team spirit eager to contribute to
-          the tech world. An environmental activist and social media zealot
-          along the way.
+          the tech world. I enjoy learning and working in both front and backend
+          because the creativity can be seen in different ways. I love yoga,
+          dance and travel. I am an environmental activist and social media
+          zealot along the way. Working in the hospitality and coffee industries
+          has given me great insight about human connection, customer needs and
+          current trends on the market.
         </p>
+
+        {/* <button id="portfolio-button" onClick={handleClick}>
+          <h5 id="portfolio-button-text">VIEW PORTFOLIO</h5>
+        </button> */}
       </div>
       <div className="aboutName">
-        {aboutKrisi.map(({ name, picKrisi, linkedin }, index) => (
+        {aboutKrisi.map(({ name, picKrisi, linkedin, resume }, index) => (
           <a
             key={index}
             className="portrait-link"
@@ -23,9 +31,6 @@ const About = () => {
             <img id="about-pic" src={picKrisi} alt={`${name}`} />
             <p className="aboutName">{name}</p>
           </a>
-          // <a href="https://www.instagram.com/zerowasteearth/">
-          // <img title="Instagram" alt="RSS" src="https://socialmediawidgets.files.wordpress.com/2014/03/10_instagram.png" width="35" height="35" />
-          // </a>
         ))}
       </div>
     </>
