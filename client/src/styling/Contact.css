@@ -6,6 +6,8 @@
   font-family: inherit;
   flex: 1;
   margin-top: 15em;
+  float: left;
+  margin-left: 3em;
 }
 
 .personalForm input {

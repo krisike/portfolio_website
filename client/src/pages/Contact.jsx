@@ -1,8 +1,17 @@
+// import React from 'react';
+
+// const Contact = () => {
+//   return <div className="contact"></div>;
+// };
+
+// export default Contact;
+
 import React from 'react';
+//import { aboutKrisi } from '../constants';
 
 const ContactForm = () => (
   <form
-    action="https://formspree.io/kpucu9@gmail.com"
+    action="https://formspree.io/krisi.keranova@gmail.com"
     method="POST"
     className="contactForm"
   >
@@ -16,7 +25,7 @@ const ContactForm = () => (
       />
       <input
         type="email"
-        name="_replyto"
+        name="email"
         autoComplete="off"
         placeholder="Email"
         required
@@ -36,15 +45,8 @@ const ContactForm = () => (
       className="textAreaForm"
       required
     />
-    <input
-      type="hidden"
-      name="_next"
-      value="//krisikeranova.herokuapp.com/contact"
-    />
-    <input type="hidden" name="_subject" value="Website contact" />
-
     <button target="_blank" className="contactButtonForm" type="submit">
-      <a href="kpucu9@gmail.com" alt="send">
+      <a href="krisi.keranova@gmail.com" alt="send">
         .
       </a>
     </button>

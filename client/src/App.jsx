@@ -6,10 +6,10 @@ import '../src/styling/Contact.css';
 import '../src/styling/Projects.css';
 import '../src/styling/Footer.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Home from './components/Home.jsx';
-import About from '../src/components/About.jsx';
-import Projects from '../src/components/Projects.jsx';
-import Contact from '../src/components/Contact.jsx';
+import Home from './pages/Home.jsx';
+import About from './pages/About.jsx';
+import Projects from './pages/Projects.jsx';
+import Contact from './pages/Contact.jsx';
 import Footer from '../src/Footer.jsx';
 import Header from '../src/Header.jsx';
 

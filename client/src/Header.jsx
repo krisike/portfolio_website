@@ -24,7 +24,7 @@ const Header = () => {
           </li>
           <li>
             <Link to="/contact" className="menu">
-              Cotact
+              Contact
             </Link>
           </li>
         </ul>
