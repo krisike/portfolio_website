@@ -1,13 +1,4 @@
-// import React from 'react';
-
-// const Contact = () => {
-//   return <div className="contact"></div>;
-// };
-
-// export default Contact;
-
 import React from 'react';
-//import { aboutKrisi } from '../constants';
 
 const ContactForm = () => (
   <form
@@ -47,7 +38,7 @@ const ContactForm = () => (
     />
     <button target="_blank" className="contactButtonForm" type="submit">
       <a href="krisi.keranova@gmail.com" alt="send">
-        .
+        SEND
       </a>
     </button>
   </form>

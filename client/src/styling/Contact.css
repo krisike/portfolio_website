@@ -2,16 +2,15 @@
   margin: 16px auto;
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 35%;
   font-family: inherit;
   flex: 1;
   margin-top: 15em;
-  float: left;
   margin-left: 3em;
 }
 
 .personalForm input {
-  width: 50%;
+  width: 95%;
   margin: 8px 0;
   line-height: 2;
   padding: 4px 8px;
@@ -49,18 +48,22 @@ input:focus {
 
 .contactButtonForm {
   margin: 16px auto;
-  width: 25%;
+  width: 30%;
   line-height: 2;
   border-radius: 5px;
   color: white;
-  background-color: cornflowerblue;
-  border: cornflowerblue;
+  background-color: rgb(65, 163, 234);
+  border: white;
   opacity: 0.8;
   transition: opacity 0.4s ease-in-out;
   display: flex;
   cursor: pointer;
   outline: none;
+
+  text-align: center;
   text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
 }
 
 .contactButtonForm a {
@@ -69,8 +72,18 @@ input:focus {
   text-decoration: none;
 }
 
+.contactButtonForm:active {
+  color: white;
+  text-decoration: none;
+}
+
 .contactButtonForm:hover {
   opacity: 1;
+}
+
+.contactButtonForm:visited {
+  color: white;
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
@@ -81,10 +94,10 @@ input:focus {
     width: 97%;
   }
   .contactButtonForm {
-    width: 100%;
+    width: 40%;
   }
   .contactButtonForm img {
-    width: 7%;
+    width: 30%;
     margin: auto;
   }
 }
@@ -95,10 +108,17 @@ input:focus {
   }
 
   .contactButtonForm {
-    width: 100%;
+    width: 40%;
   }
   .contactButtonForm img {
-    width: 10%;
+    width: 30%;
     margin: auto;
   }
+  .contactForm {
+    margin-right: 1em;
+  }
+}
+
+a:-webkit-any-link {
+  color: white;
 }

@@ -7,20 +7,21 @@ const About = () => {
     <div className="aboutName">
       {aboutKrisi.map(({ name, picKrisi, linkedin, aboutme }, index) => (
         <>
-          <div className="about">
-            <p className="about">{aboutme}</p>
+          <div className="aboutPageContainer">
+            <div className="aboutPageTopDescription">
+              <p>{aboutme}</p>
+            </div>
+            <a
+              key={index}
+              className="portrait-link"
+              href={linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img id="about-pic" src={picKrisi} alt={`${name}`} />
+              <p className="aboutMyName">{name}</p>
+            </a>
           </div>
-
-          <a
-            key={index}
-            className="portrait-link"
-            href={linkedin}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img id="about-pic" src={picKrisi} alt={`${name}`} />
-            <p className="aboutName">{name}</p>
-          </a>
         </>
       ))}
     </div>

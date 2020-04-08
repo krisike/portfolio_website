@@ -4,13 +4,6 @@ import { allProjects } from '../constants/constants.js';
 const Projects = () => {
   return (
     <>
-      <div className="about">
-        <p>
-          A web developer with enthusiasm and team spirit eager to contribute to
-          the tech world. An environmental activist and social media zealot
-          along the way. Here are a few of my recent projects.
-        </p>
-      </div>
       <div className="projectContainer">
         {allProjects.map(
           (
