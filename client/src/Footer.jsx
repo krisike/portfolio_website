@@ -9,11 +9,6 @@ const Footer = () => {
         <li>
           <ResumeButton />
         </li>
-        {/* <li>
-          <Link to="/contact" className="contact_link">
-            Get in Touch
-          </Link>
-        </li> */}
       </ul>
     </div>
   );
