@@ -35,7 +35,10 @@ export const aboutKrisi = [
     name: 'Krisi Keranova',
     picKrisi: require('../images/Krisidance1.gif'),
     linkedin: 'https://www.linkedin.com/in/krisi-keranova/',
+    githubLink: 'https://github.com/krisike',
     email: 'krisi.keranova@gmail.com',
+    githubLogoConst: require('../assets/github-logo.png'),
+    linkedInLogoConst: require('../assets/linkedin-icon.png'),
     aboutme: `A web developer with enthusiasm and team spirit eager to contribute to the tech world. I enjoy learning and working in both front and backend because the creativity can be seen in different ways. I love yoga, dance and travel. I am an environmental activist and social media zealot along the way. Working in the hospitality and coffee industries has given me great insight about human connection, customer needs and current trends on the market.`
   }
 ];

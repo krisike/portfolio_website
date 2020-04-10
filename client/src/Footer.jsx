@@ -1,6 +1,6 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
 import ResumeButton from '../src/components/ResumeButton';
+import SocialLinks from './components/SocialLinks';
 
 const Footer = () => {
   return (
@@ -8,6 +8,9 @@ const Footer = () => {
       <ul className="menuFooter">
         <li>
           <ResumeButton />
+        </li>
+        <li>
+          <SocialLinks />
         </li>
       </ul>
     </div>

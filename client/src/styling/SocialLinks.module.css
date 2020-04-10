@@ -1,0 +1,25 @@
+.socialLinks {
+  display: flex;
+  flex-direction: row;
+  width: 10%;
+  justify-content: space-evenly;
+  margin: 2em;
+  margin-right: 481px;
+}
+
+.socialLinks img:hover {
+  transform: scale(1.1);
+}
+
+.socialLinks img {
+  width: 2vw;
+  cursor: pointer;
+  transition: transform 0.3s;
+  margin-right: 0.9em;
+}
+
+/* .SocialLinks_socialLinks__1kz-F img {
+  justify-content: space-around;
+  margin-left: 3em;
+  flex-direction: row;
+} */
