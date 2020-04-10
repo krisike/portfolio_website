@@ -2,18 +2,20 @@
   color: whitesmoke;
   cursor: pointer;
   margin: 0.5em;
-  height: 100%;
-  padding: 12px;
+  /* height: 95%; */
+  padding: 0.4em;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 2vw;
   transition: background-color 0.2s ease-out;
   box-sizing: border-box;
   margin-right: 1em;
   background-color: #6db7ed;
   border-radius: 5px;
+  bottom: 0.1em;
+  margin-right: 1em;
 }
 
-.containerFooter {
+.menuFooter {
   display: flex;
   flex-direction: row;
   line-height: 2;
@@ -32,10 +34,28 @@
   font-weight: 700;
 }
 
+/* .footerLinks a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: 700;
+} */
+/* 
+i {
+  margin: 8px;
+  color: whitesmoke;
+}
+
+.fab fa-github fa-lg {
+  z-index: 10;
+  size: 100%;
+} */
+
+#githubLinks {
+  width: 2px !important;
+  height: auto;
+}
+
 @media (max-width: 414px) {
-  /* .copyRight {
-    display: none;
-  } */
   .resumeButton {
     display: none;
   }

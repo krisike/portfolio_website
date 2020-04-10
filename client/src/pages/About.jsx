@@ -1,6 +1,6 @@
 import React from 'react';
 import { aboutKrisi } from '../constants/constants.js';
-// import ResumeButton from '../components/ResumeButton';
+// import SocialLinks from '../../src/components/SocialLinks';
 
 const About = () => {
   return (
@@ -22,6 +22,7 @@ const About = () => {
               <p className="aboutMyName">{name}</p>
             </a>
           </div>
+          {/* <SocialLinks /> */}
         </>
       ))}
     </div>

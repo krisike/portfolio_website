@@ -4,14 +4,14 @@ import { allProjects } from '../constants/constants.js';
 const Projects = () => {
   return (
     <>
-      <div className="projectContainer">
+      <div>
         {allProjects.map(
           (
             { projectName, Description, gitHubLink, gifLink, technologyUsed },
             index
           ) => {
             return (
-              <>
+              <div className="projectContainer">
                 <a
                   key={index}
                   className="project-link"
@@ -25,7 +25,7 @@ const Projects = () => {
                 <p>{technologyUsed}</p>
 
                 <img className="animatedGif" src={gifLink} alt="project-link" />
-              </>
+              </div>
             );
           }
         )}

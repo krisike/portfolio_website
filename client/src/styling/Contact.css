@@ -5,7 +5,7 @@
   width: 35%;
   font-family: inherit;
   flex: 1;
-  margin-top: 15em;
+  margin-top: 2em;
   margin-left: 3em;
 }
 
@@ -27,10 +27,10 @@ input:focus {
 }
 
 .textAreaForm {
-  margin-top: 16px;
-  padding: 4px 8px;
+  margin-top: 1em;
+  padding: 1px 8px;
   border-radius: 5px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: inherit;
   resize: none;
   overflow-y: scroll;
@@ -84,6 +84,14 @@ input:focus {
 .contactButtonForm:visited {
   color: white;
   text-decoration: none;
+}
+
+.contactGreeting {
+  color: black;
+  margin-top: 8em;
+  margin-left: 3em;
+  font-size: 1.5em;
+  text-align: justify;
 }
 
 @media (max-width: 768px) {
