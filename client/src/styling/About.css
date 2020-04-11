@@ -32,10 +32,9 @@ a:active {
 }
 /* this is image and text  */
 .aboutName {
-  /* margin-left: 6em; */
   text-decoration: none;
   color: black;
-  font-size: 3vh;
+  font-size: 18px;
 }
 a:link {
   text-decoration: none;
@@ -56,7 +55,7 @@ a:active {
 
 .aboutPageContainer {
   justify-content: center;
-  margin-right: 481px;
+  margin-right: 30rem;
   margin-left: 4em;
   text-align: center;
 }
@@ -64,7 +63,6 @@ a:active {
 .aboutPageTopDescription p {
   margin-top: 8em;
   flex-wrap: wrap;
-  /* width: 481px; */
   text-align: justify;
   flex-direction: row;
   padding: 20px;
@@ -73,27 +71,10 @@ a:active {
   overflow-wrap: break-word;
   word-wrap: break-word;
   hyphens: auto;
+  margin-right: 30rem;
 }
 
-.linkedin-logo:hover {
-  opacity: 0.7;
-  transform: scale(1.1);
-}
-
-.github-logo {
-  height: 35px;
-  width: 35px;
-  margin: 5px;
-  border-radius: 10%;
-  margin-top: 5.5px;
-}
-
-.github-logo:hover {
-  opacity: 0.7;
-  transform: scale(1.15);
-}
-
-/* @media screen and (max-width: 900px) and (min-width: 600px),
+@media screen and (max-width: 900px) and (min-width: 600px),
   (min-width: 1100px) {
   img#about-pic {
     font-size: 20px;
@@ -101,12 +82,23 @@ a:active {
     border: 8px solid #6db7ed;
     background: #000000;
   }
+  .aboutPageContainer {
+    margin-right: 4rem;
+  }
+  .aboutPageTopDescription p {
+    margin-right: 5em;
+    width: 50%;
+    height: auto;
+  }
 }
 
 @media screen and (min-width: 600px), (min-width: 1100px) {
   p.aboutPageTopDescription {
     padding: 20px;
     border: 8px solid #6db7ed;
+  }
+  .aboutName {
+    font-size: 16px;
   }
 }
 
@@ -116,6 +108,14 @@ a:active {
     padding: 10px;
     border: 8px solid #6db7ed;
   }
+  .aboutPageContainer {
+    margin-right: 4rem;
+  }
+  .aboutPageTopDescription p {
+    margin-right: 5em;
+    width: 50%;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -124,6 +124,20 @@ a:active {
   }
   .aboutName {
     font-size: 2vw;
-    color: pink;
+    color: black;
   }
-} */
+  .aboutPageContainer {
+    margin-right: 5rem;
+    margin-top: 8rem;
+  }
+  #about-pic {
+    width: 50%;
+    height: auto;
+  }
+
+  .aboutPageTopDescription p {
+    margin-right: 5em;
+    width: 50%;
+    height: auto;
+  }
+}

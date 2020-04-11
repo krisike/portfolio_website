@@ -1,6 +1,6 @@
-button.resumeButotn {
-  margin: 12px auto;
-  line-height: 3;
+.resumeButton {
+  margin: 0.8 auto;
+  line-height: 1;
   border-radius: 5px;
   color: white;
   background-color: rgb(65, 163, 234);
