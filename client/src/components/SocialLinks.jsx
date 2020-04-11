@@ -1,16 +1,25 @@
 import React from 'react';
-import { githubLogo, linkedinLogo } from '../assets/';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import styles from '../styling/SocialLinks.module.css';
 
 const SocialLinks = () => (
-  <div className={styles.socialLinks}>
-    <a href="https://github.com/krisike" target="blank">
-      <img src={githubLogo} alt="github" />
-    </a>
-    <a href="https://www.linkedin.com/in/krisi-keranova/" target="blank">
-      <img src={linkedinLogo} alt="linkedin" />
-    </a>
-  </div>
+  <ul>
+    <li>
+      <a href="https://github.com/krisike" target="blank">
+        <FaGithub className={styles.faIcons} />
+      </a>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/in/krisi-keranova/" target="blank">
+        <FaLinkedin className={styles.faIcons} />
+      </a>
+    </li>
+    <li>
+      <a href="mailto:krisi.keranova@gmail.com">
+        <FaEnvelope className={styles.faIcons} />
+      </a>
+    </li>
+  </ul>
 );
 
 export default SocialLinks;
