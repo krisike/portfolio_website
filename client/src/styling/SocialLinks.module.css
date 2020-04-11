@@ -1,9 +1,9 @@
 .socialLinks {
-  display: flex;
+  float: right;
   flex-direction: row;
   width: 10%;
   justify-content: space-evenly;
-  margin: 2em;
+  margin: 1em;
   margin-right: 481px;
 }
 
