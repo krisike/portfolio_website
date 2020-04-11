@@ -1,25 +1,14 @@
-.socialLinks {
-  float: right;
+ul {
+  display: flex;
   flex-direction: row;
-  width: 10%;
-  justify-content: space-evenly;
-  margin: 1em;
-  margin-right: 481px;
+  padding-left: 0em;
+}
+li {
+  /* margin: 0.5em; */
 }
 
-.socialLinks img:hover {
-  transform: scale(1.1);
+a .faIcons {
+  width: 1.5em;
+  height: 1.5em;
+  margin: 0.5em;
 }
-
-.socialLinks img {
-  width: 2vw;
-  cursor: pointer;
-  transition: transform 0.3s;
-  margin-right: 0.9em;
-}
-
-/* .SocialLinks_socialLinks__1kz-F img {
-  justify-content: space-around;
-  margin-left: 3em;
-  flex-direction: row;
-} */

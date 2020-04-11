@@ -1,24 +1,25 @@
 .resumeButton {
   color: whitesmoke;
+  background-color: #6db7ed;
   cursor: pointer;
   text-decoration: none;
   font-size: 2vw;
   transition: background-color 0.2s ease-out;
   box-sizing: border-box;
-  margin-right: 1em;
-  background-color: #6db7ed;
+  /* margin-right: 1em; */
+
   border-radius: 5px;
-  position: absolute;
+  /* position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); */
   font-size: 16px;
   padding: 16px 30px;
   border: none;
   cursor: pointer;
   border-radius: 5px;
-  text-align: center;
+  margin-bottom: 1em;
 }
 
 .resumeButton:hover {
@@ -28,7 +29,9 @@
 
 .menuFooter {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+
   line-height: 2;
   width: 100%;
   background-color: #303030;
@@ -36,13 +39,6 @@
   margin-top: 48px;
   justify-content: space-around;
   bottom: 0;
-  position: fixed;
-}
-
-.socialLinks a {
-  text-decoration: none;
-  color: whitesmoke;
-  font-weight: 700;
 }
 
 @media (max-width: 414px) {

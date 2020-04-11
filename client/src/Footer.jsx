@@ -5,14 +5,10 @@ import SocialLinks from './components/SocialLinks';
 const Footer = () => {
   return (
     <div className="containerFooter">
-      <ul className="menuFooter">
-        <li>
-          <ResumeButton />
-        </li>
-        <li>
-          <SocialLinks />
-        </li>
-      </ul>
+      <div className="menuFooter">
+        <SocialLinks />
+        <ResumeButton />
+      </div>
     </div>
   );
 };
