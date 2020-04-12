@@ -1,5 +1,5 @@
 import React from 'react';
-require('../styling/Home.css');
+require('./Home.css');
 
 const Home = () => {
   return <div className="home-container">Hello</div>;
