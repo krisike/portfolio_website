@@ -1,3 +1,4 @@
 .home-container {
-  min-height: calc(100vh - 40px - 30px);
+  min-height: calc(100vh - 40px - 110px);
+  margin-top: 10em;
 }

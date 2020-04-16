@@ -137,3 +137,7 @@ input:focus {
 a:-webkit-any-link {
   color: white;
 }
+
+.containerContact {
+  min-height: calc(100vh - 50px - 110px);
+}
