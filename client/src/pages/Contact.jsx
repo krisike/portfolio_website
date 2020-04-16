@@ -2,16 +2,7 @@ import React from 'react';
 
 const ContactForm = () => (
   <div className="containerContact">
-    <div className="contactGreeting">
-      Thank you for reaching out!
-      <a
-        href="https://www.linkedin.com/in/krisi-keranova/"
-        target="blank"
-        rel="noopener noreferrer"
-      >
-        <i className="fab fa-linkedin fa-lg" />
-      </a>
-    </div>
+    <div className="contactGreeting">Thank you for reaching out!</div>
     <div>
       <form
         action="https://formspree.io/krisi.keranova@gmail.com"

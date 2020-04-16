@@ -2,13 +2,14 @@
   margin-top: 4em;
   flex-wrap: wrap;
   justify-content: center;
-  width: 35%;
+  width: 45%;
   padding-bottom: 3em;
-  margin-left: 4em;
+  margin-left: 5em;
   flex-direction: column;
   padding: 10px;
   padding-right: 1em;
   border: 8px solid #6db7ed;
+  /* min-height: calc(100vh - 50px - 110px); */
 }
 
 .projectContainer p {
@@ -66,7 +67,6 @@ img.animatedGif {
 @media screen and (max-width: 600px) {
   .projectContainer {
     font-size: 12px;
-    width: 40%;
     height: auto;
   }
 }
@@ -78,9 +78,8 @@ img.animatedGif {
 @media screen and (min-width: 601px) and (max-width: 1000px) {
   .projectContainer {
     font-size: 16px;
-    /* padding: 10px; */
     border: 6px solid #6db7ed;
-    margin-right: 3em;
+    /* margin-right: 3em; */
   }
   .animatedGif {
     width: 50%;
@@ -92,8 +91,8 @@ img.animatedGif {
   .projectContainer {
     font-size: 3vw;
     padding: 2%;
-    border: 2px solid #6db7ed;
+    border: 4px solid #6db7ed;
     margin-top: 7em;
-    margin-left: 2em;
+    /* margin-left: 3em; */
   }
 }
