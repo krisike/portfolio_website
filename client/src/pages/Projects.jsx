@@ -15,12 +15,12 @@ const Projects = () => {
               technologyUsed,
               websiteLink
             },
-            index
+            x
           ) => {
             return (
               <div className="projectContainer">
                 <a
-                  key={index}
+                  key={x}
                   className="project-link"
                   href={gitHubLink}
                   target="_blank"
@@ -31,7 +31,7 @@ const Projects = () => {
                 <p className="projectDescription">{Description}</p>
                 <p>{technologyUsed}</p>
                 <a
-                  key={index}
+                  key={x}
                   className="project-link"
                   href={websiteLink}
                   target="_blank"
