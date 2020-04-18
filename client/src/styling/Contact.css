@@ -52,7 +52,7 @@ input:focus {
   line-height: 2;
   border-radius: 5px;
   color: white;
-  background-color: rgb(65, 163, 234);
+  background-color: #41a3ea;
   border: white;
   opacity: 0.8;
   transition: opacity 0.4s ease-in-out;
