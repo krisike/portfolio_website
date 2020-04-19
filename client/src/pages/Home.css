@@ -70,6 +70,7 @@ a:active {
   flex-direction: row;
   padding: 20px;
   border: 8px solid #6db7ed;
+  border-radius: 5px;
   display: inline-block;
   /* overflow-wrap: break-word; */
   word-wrap: break-word;
@@ -110,7 +111,7 @@ a:active {
     color: black;
   }
   .homeContainer {
-    margin-top: 8rem;
+    margin-top: 4rem;
   }
   #about-pic {
     width: 50%;
