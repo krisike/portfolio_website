@@ -35,9 +35,9 @@ const Skills = () => {
       <div className="card">
         <h1 className="titleInfo">General</h1>
         <p className="skillsDescription">
-          The learning takes new realms. A blend of creativity and logic.
-          Intuition, empathy and human connection. Content development, product
-          evolution, sustainable touch. Passion for UX/UI.
+          Learning takes new realms. A blend of creativity and logic. Intuition,
+          empathy and human connection. Content development, product evolution,
+          sustainable touch. Passion for UX/UI.
         </p>
         <ul className="skillsList">
           <li>Agile Methodology</li>
