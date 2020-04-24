@@ -7,7 +7,7 @@ const Skills = () => {
       {/* <h4>
         The 15+ years of hospitality and international coffee business
         experience has only led me to be hungry for more knowlegdge. Co-creating
-        an enterpreneurship business and working in many parts of has been vital
+        an enterpreneurship business and working in many parts of the world has been vital
         for understanding user and product to a different level. Social Media,
         Content Creating Photography and client relationships has been big part
         of the journey. Below are parts of the new wave of development.{' '}
