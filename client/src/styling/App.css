@@ -6,3 +6,14 @@ body {
   z-index: -1;
   font-family: 'Raleway', sans-serif;
 }
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+  body {
+    background-size: 100% 100%;
+  }
+}
+
+/* desktop */
+@media only screen and (min-width: 600px) {
+}
