@@ -1,6 +1,6 @@
 import React from 'react';
 import { aboutKrisi } from '../constants/constants.js';
-require('./Home.css');
+require('../styling/Home.css');
 
 const Home = () => {
   return (
