@@ -5,7 +5,7 @@ body {
   background-size: 100% 100%;
   z-index: -1;
   font-family: 'Raleway', sans-serif;
-  /* background-size: cover; */
+  background-size: cover;
 }
 
 /* mobile */
