@@ -51,4 +51,7 @@
   .footer a {
     margin: 0 !important;
   }
+  .resumeButton {
+    padding: 12px 12px;
+  }
 }
