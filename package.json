@@ -10,7 +10,7 @@
     "@fortawesome/react-fontawesome": "^0.1.9",
     "axios": "^0.19.2",
     "express": "^4.17.1",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "react-icons": "^3.9.0",
     "react-router-dom": "^5.1.2"
   },
